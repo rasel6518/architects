@@ -126,14 +126,26 @@ main {
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width:576px) {
+
     header {
         padding: 20px;
 
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
+
+    .teams-images {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
 }
 
 /* tablet or medium deviejces
@@ -142,7 +154,9 @@ main {
 
 
 @media screen and (min-width:576px) and (max-width:960px) {
-    nav {
+
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 
