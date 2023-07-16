@@ -119,6 +119,50 @@ main {
     font-weight: 700;
 }
 
+/* Facts styles */
+
+
+.section-title {
+
+    color: #131313;
+
+    font-size: 45px;
+
+    font-weight: 700;
+
+}
+
+.section-title-description {
+    color: #727272;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4.8rem;
+    /* align-items: center; */
+}
+
+.card {
+
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
 
 
 
